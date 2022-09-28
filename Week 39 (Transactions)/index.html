@@ -12,8 +12,24 @@
       <h1>Bank of Narnia</h1>
     </header>
     <main>
-      <div class="transactions">Transactions content</div>
-      <div class="sidebar">Filter and sort content in a sticky sidebar</div>
+      <div class="transactions"></div>
+      <div class="sidebar">
+        <h3>Choose your warrior</h3>
+        <input type="radio" name="card_type" id="american" value="American Express">
+        <label for="american">American Express</label><br>
+        <input type="radio" name="card_type" id="visa" value="VISA">
+        <label for="visa">VISA</label><br>
+        <input type="radio" name="card_type" id="master-card" value="MasterCard">
+        <label for="master-card">MasterCard</label><br>
+        <input type="radio" name="card_type" id="discover" value="Discover">
+        <label for="discover">Discover</label><br>
+
+        <button id="apply">Apply filter</button>
+      </div>
     </main>
+    <script src="/Week 39 (Transactions)/script.js"></script>
+    <script src="/Week 39 (Transactions)/data/transactions-proxy.js"></script>
+    <script src="/Week 39 (Transactions)/data/local-transactions.js"></script>
+    <script src="/Week 39 (Transactions)/components/transaction-table.js"></script>
   </body>
 </html>
