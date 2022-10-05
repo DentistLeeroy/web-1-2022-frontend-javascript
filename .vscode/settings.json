@@ -3,6 +3,5 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.formatOnSave": true
   },
-  "peacock.color": "#61dafb",
   "liveServer.settings.port": 5501
 }
